@@ -1,0 +1,18 @@
+<anticsrf>
+  <mode>session</mode>
+  <token_attribute>anticsrf-tokenattr</token_attribute>
+  <token_parametername>tok</token_parametername>
+  <monitormode enabled="no"></monitormode>
+  
+  <error mode="status_code">403</error>
+
+  <session_settings>
+    <csrf_header>X-CSRF-Token</csrf_header>
+  </session_settings>
+
+  <exempt_urls>
+    <url>/</url>
+    <url>/HomeServlet</url>
+    <url>/ErrorServlet</url>
+  </exempt_urls>
+</anticsrf>

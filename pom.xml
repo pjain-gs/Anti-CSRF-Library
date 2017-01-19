@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gds.anticsrf</groupId>
+  <artifactId>anticsrf</artifactId>
+  <version>0.4.0</version>
+  <packaging>pom</packaging>
+  
+  <modules>
+  	<module>anticsrf-api</module>
+  	<module>anticsrf-core</module>
+  	<module>anticsrf-j2ee</module>
+  </modules>
+  <build>
+    <plugins>
+      <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>findbugs-maven-plugin</artifactId>
+          <version>2.3.2</version>
+          <configuration>
+            <xmlOutput>true</xmlOutput>
+            <findbugsXmlOutput>true</findbugsXmlOutput>
+          </configuration>
+      </plugin>
+  </plugins>
+  </build>
+</project>
