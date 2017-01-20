@@ -284,7 +284,7 @@ final class StoreBasedCSRFTokenService implements CSRFTokenService {
                 && TokenHelper.timestampIsExpired(tokenTimestamp, tokenTimeout)) {
             logger.warn(
                     "CSRF Token is expired: ");
-
+            tokenContextStore.removeItem(storedToken.getTokenValue());
             return false;
         }
 
