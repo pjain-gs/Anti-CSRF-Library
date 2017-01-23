@@ -21,8 +21,6 @@ package com.gdssecurity.anticsrf.impl.j2ee;
 /**
  * Extends <code>J2EECSRFRequestContext</code> to process J2EE <code>HttpServletRequest</code>
  * for tokens passed in the HTTP headers
- *
- * @author Pallavi Jain
  */
 
 import javax.servlet.http.HttpServletRequest;

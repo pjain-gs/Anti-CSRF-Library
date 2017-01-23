@@ -28,8 +28,6 @@ import java.util.List;
 
 /**
  * Factory class that creates the default rules service.
- *
- * @author ononic
  */
 public class DefaultCSRFRulesServiceFactory implements CSRFRulesServiceFactory {
 

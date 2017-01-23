@@ -24,8 +24,6 @@ import com.gdssecurity.anticsrf.spi.logging.CSRFLoggingService;
 
 /**
  * Factory class that gets the rules service used to process the protection rules associated with the <code>HttpServletRequest</code>
- *
- * @author ononic
  */
 public interface CSRFRulesServiceFactory {
 

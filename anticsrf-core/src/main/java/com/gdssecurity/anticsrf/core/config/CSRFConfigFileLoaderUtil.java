@@ -29,7 +29,6 @@ import java.util.regex.Pattern;
 
 /**
  * Utility class used while loading CSRF configuration file
- * Created by jaipal on 3/7/2016.
  */
 public final class CSRFConfigFileLoaderUtil {
 

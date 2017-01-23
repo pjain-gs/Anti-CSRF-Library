@@ -40,7 +40,6 @@ import java.util.Date;
 /**
  * Storage based token service class implementing <code>CSRFTokenService</code>
  *
- * @author ononic
  */
 final class StoreBasedCSRFTokenService implements CSRFTokenService {
 
